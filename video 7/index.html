@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Form</title>
+  </head>
+  <body>
+    <h1>This is an admission form</h1>
+    <p>in this video we will create A form in Html</p>
+    <!-- forms have two types "post" and get but the "post" is use often -->
+    <form action="post">
+      <label for="name">Enter Your Name</label>
+      <input type="text" name="name" id="name" placeholder="Name" /><br />
+      <label for="fater">Enter your father name</label>
+      <input
+        type="text"
+        name="fahter"
+        id="father"
+        placeholder="Father Name"
+      /><br />
+
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+
+      <!-- if you make the id in input and for in label make it same the the radio text will be clickable and if you change then vice-versa -->
+
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label><br />
+
+      <input type="checkbox" name="subscribe" id="sub-to-channel" />
+      <label for="sub-to-channel">subscribe to Our channel</label><br />
+
+      <textarea name="feedback" id="Contumer_f" rows="5" cols="35">
+        Enter Your feedback
+      </textarea><br>
+      <caption>Enter Your Gender</caption>
+      <select name="name" id="fruit">
+        <option value="Male">Male</option>
+        <option value="female">Female</option>
+        <option value="Gay">Gay</option>
+      </select>
+
+
+
+      <br />
+    </form>
+  </body>
+</html>
