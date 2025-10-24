@@ -1,0 +1,8 @@
+div{
+    background-color: #ec4646;
+}
+/* here the div is is a class so the Background is changed of all divs */
+/* and the nddiv is also a div but it has an ID so its can be selected by the name nddiv */
+#nddiv {
+ color: rgb(212, 212, 30);   
+}
