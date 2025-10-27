@@ -1,0 +1,24 @@
+.box {
+  background-color: #d6771f;
+}
+
+.box1 {
+  color: rgb(61, 250, 250);
+  padding: 5px;
+  margin: 25px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.box2 {
+  color: rgb(61, 250, 250);
+  background-color: #6bd374;
+  padding: 5px;
+  margin: 25px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 5px solid rgb(0, 0, 0);
+}

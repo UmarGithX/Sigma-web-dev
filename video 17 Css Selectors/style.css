@@ -23,3 +23,25 @@ div > p{
     background-color: rgb(221, 119, 136);
 }
 
+/* Psudo selectors */
+
+/* hour function will change the BG color when we hover on the link */
+a:hover{
+  background-color: #d15757;
+}
+
+
+/* the link will change the color of visited link */
+a:link{
+  color: rgb(228, 5, 42);
+}
+/* when clicked it will change the color to as you define for a little time */
+a:active{
+  background-color: rgb(8, 245, 115);
+}
+
+a:visited{
+  background-color: yellow;
+}
+
+
