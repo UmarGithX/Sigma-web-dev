@@ -1,8 +1,8 @@
-p{
-    color: red;
-    background-color: #0a2a58;
+p {
+  color: red;
+  background-color: #0a2a58;
 }
 
-div p:first-child{
-    background-color: #f2ff03;
+div p:first-child {
+  background-color: #f2ff03;
 }
