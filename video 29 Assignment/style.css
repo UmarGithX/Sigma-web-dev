@@ -1,0 +1,27 @@
+*{
+    padding: 10px;
+}
+div{
+    border: solid black 3px;
+    
+    border-radius: 20px;
+    align-items: center;
+}
+.img{
+    /* display: flex; */
+    /* justify-content: center; */
+    display: grid;
+    place-items: center;
+    border: solid red;
+    border-radius: 10px; /* Adjust pixels as needed */
+    overflow: hidden;
+
+}
+.button{
+    
+    border: none;
+    box-shadow: -1px 1px 20px 6px;
+    text-align: center;
+    color:  rgb(0, 0, 247);
+    background-color : rgb(226, 220, 220) ;
+}
