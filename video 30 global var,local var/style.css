@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Root is a CSS Function used as Global Variable to make changes at the color etc at once and apply every */
+:root {
+  --color: rgb(38, 236, 38);
+  --seccolor: rgb(148, 148, 86);
+}
+div {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+ul li:first-child{
+  --color: rgb(38, 236, 38);
+  color: var(--color);
+}
+
+.nav {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: var(--seccolor);
+  justify-content: center;
+
+  li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 30px;
+  }
+}
+
+ul {
+  /* background-color: red;    */
+  display: flex;
+}
+.container {
+  color: var(--seccolor);
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 25px;
+  align-items: center;
+}
