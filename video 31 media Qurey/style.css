@@ -1,0 +1,27 @@
+        body{
+            background-color: green;
+            border:solid rgb(186, 250, 9) 2px;
+            border-radius: 20px;
+            margin: 40px;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        @media screen and (max-width: 600px){
+            body{
+                background-color: rgb(2, 246, 152);
+                border:solid rgb(10, 10, 10) 2px;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 10px;
+
+            }
+        }
+
+        .box{
+            border: 2px solid rgb(233, 154, 129);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+
+        }

@@ -6,11 +6,13 @@
 :root {
   --color: rgb(38, 236, 38);
   --seccolor: rgb(148, 148, 86);
+  --opacity: 60%;
 }
 div {
   padding: 20px;
   margin: 20px;
   display: flex;
+  opacity: var(--opacity);
 }
 ul li:first-child{
   --color: rgb(38, 236, 38);
